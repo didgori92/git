@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+}
+
+.box {
+    background-color: red;
+    width: 400px;
+    height: 400px;
+    animation-name: Myanimation;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+
+@keyframes Myanimation {
+    
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: blue;
+        transform: translateX(200px) translateY(150px) scale(0.9);
+    }
+
+    50% {
+        background-color: green;
+        transform: translateX(250px) translateY(250px) scale(1.5);
+    }
+
+    75% {
+        background-color: lime;
+        transform: translateX(0px) translateY(400px) scale(0.5);
+    }
+
+    85% {
+        background-color: gold;
+        transform: translateX(500px) translateY(300px) scale(0.7);
+    }
+
+    100% {
+        background-color: white;
+        transform: translateX(200px) translateY(120px) scale(0.3);
+    }
+}
