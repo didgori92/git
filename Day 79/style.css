@@ -11,7 +11,7 @@ body {
     background-color: rgb(18, 15, 24);
     background-image: url(rVeEH3OBGYbNyXqzdJ03O9C9wps.jpg.png);
     background-repeat: no-repeat;
-    background-size: 75%;
+    background-size: 100%;
 }
 
 .navigation {
@@ -70,6 +70,8 @@ h1 {
 
 .parent {
     display: grid;
+    width: 1500px;
+    margin-left: 200px;
     grid-template-columns: 100px 500px 500px;
     grid-template-rows: 500px 500px 500px;
 }
